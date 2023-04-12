@@ -1,0 +1,142 @@
+@media ( max-width:1024px) {
+    .left-text-block{
+        width: 70%;
+        margin: 0 auto;
+    }
+   .right-img-block{ 
+    display: none;
+   }
+   .right-img-block1024{
+    display: block;
+   }
+   .parent-block{
+    /* flex-wrap: wrap; */
+    display: block;
+     max-width: 960px;
+    width: 100%;
+    height: 348px;
+   }
+   .img-resp1{
+    max-width:  1024px;
+    width: 100%;
+}
+   .left-block-img{
+    display: none;
+   }
+   .left-block-resp{
+    display: block;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   
+   .right-block{ 
+    display: flex;
+    justify-content: space-between;
+   }
+   
+/* .img-resp1{
+    width: 100%;
+   } */
+   }
+
+  
+
+   @media (max-width:744px){
+   .section01-img{
+   max-width:  695px;
+   width: 100%;
+   }
+   
+
+   .section02{
+    flex-direction: column;
+    height: 415px;
+   }
+   .feature-one{
+    max-width: 744px;
+    width: 80%;
+    height: 138px;
+  
+   }
+   .top-div{
+    justify-content: center;
+   align-items: center;
+   }
+    .left-block-resp{
+        display: none;
+    }
+   .left-block-resp2{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .section03{
+        height: 917px;
+    }
+    .right-block{
+        flex-direction: column;
+       margin: 0 auto;
+       text-align: center;
+    }
+    .right-img-block1024{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .left-text-block{
+        max-width: 695px;
+        width:98% ;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .action-div-block{
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .left-text-title{
+        font-size: 40px;
+    }
+    .bg-img02{
+        display: block;
+    }
+    .bg-img{
+        display: none;
+    }
+    .section03-img{
+        max-width:  744px;
+        width: 100%;
+    }
+   }
+
+
+   @media ( max-width:375px){
+    .section01-img{
+        max-width:  327px;
+        width: 100%;
+        }
+    /* .section03-img{
+            max-width:  327px;
+            width: 100%;
+        } */
+   .section03{
+       height: 195px;
+        }
+        .nav-ul{ 
+            display: none;
+        }
+        .Action-div{
+            display: none;
+        }
+        .fa-bars{
+            display: block;
+        }
+   }
+   
